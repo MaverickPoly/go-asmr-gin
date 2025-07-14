@@ -1,0 +1,28 @@
+### Fetch All Todos
+GET http://localhost:8000/api/todos/
+
+
+### Create New Todo
+POST http://localhost:8000/api/todos/
+Content-Type: application/json
+
+{
+  "title": "Watch Movies"
+}
+
+
+### Get Todo
+GET http://localhost:8000/api/todos/4
+
+
+### Delete Todo
+DELETE http://localhost:8000/api/todos/5
+
+### Update Todo
+PUT http://localhost:8000/api/todos/4
+Content-Type: application/json
+
+{
+  "title": "Do 90 push ups",
+  "completed": true
+}
