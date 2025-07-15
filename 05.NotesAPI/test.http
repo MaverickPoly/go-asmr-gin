@@ -1,0 +1,26 @@
+### GET All Notes
+GET http://localhost:8080/api/v1/notes
+
+### Create Note
+POST http://localhost:8080/api/v1/notes
+Content-Type: application/json
+
+{
+  "title": "Note c",
+  "content": "Please delete this!"
+}
+
+### Fetch Note by ID
+GET http://localhost:8080/api/v1/notes/3
+
+### Delete Note by ID
+DELETE http://localhost:8080/api/v1/notes/6
+
+### Update Note by ID
+PUT http://localhost:8080/api/v1/notes/4
+Content-Type: application/json
+
+{
+  "title": "Note B!!!",
+  "content": "This is a sample content of Note B"
+}
