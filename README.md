@@ -25,7 +25,7 @@
 
 * Create, retrieve, update, and delete notes. Practice using path params and query strings.
 
-### 6. **User Registration API**
+### 6. **Authentication**
 
 * Accept a JSON POST request with user details like name, email, and password. Save to a slice or map.
 

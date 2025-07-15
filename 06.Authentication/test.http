@@ -1,0 +1,29 @@
+### Login
+POST http://localhost:6000/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "test",
+  "password": "1234"
+}
+
+### Register
+POST http://localhost:6000/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "test",
+  "email": "test@gmail.com",
+  "password": "1234",
+  "location": "Moscow"
+}
+
+
+### Logout
+POST http://localhost:6000/api/auth/logout
+
+
+### Fetch ME
+GET http://localhost:6000/api/auth/me
+
+
