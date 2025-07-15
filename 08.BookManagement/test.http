@@ -1,0 +1,28 @@
+### Fetch All Books
+GET http://localhost:8000/api/books
+
+### Create Book
+POST http://localhost:8000/api/books
+Content-Type: application/json
+
+{
+  "title": "How to become a loser",
+  "author": "Me",
+  "published_year": 2025
+}
+
+### Fetch Book
+GET http://localhost:8000/api/books/4
+
+### Delete Book
+DELETE http://localhost:8000/api/books/5
+
+### Update Book
+PUT http://localhost:8000/api/books/4
+Content-Type: application/json
+
+{
+  "title": "10x Rule",
+  "author": "Grand Cardon",
+  "published_year": 2015
+}

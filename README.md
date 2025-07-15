@@ -33,34 +33,30 @@
 
 * Return mock weather info like temperature, city, and condition via a `/weather/:city` endpoint.
 
-### 8. **Simple Authentication**
-
-* Simulate login with hardcoded user credentials. Return a token or message if the login is successful.
-
-### 9. **Book Management API**
+### 8. **Book Management API**
 
 * CRUD for books with fields: `id`, `title`, `author`, `publishedYear`.
 
-### 10. **Currency Converter API**
+### 9. **Currency Converter API**
 
 * Accept input like amount, fromCurrency, toCurrency and return converted value (mocked conversion rates).
 
-### 11. **BMI Calculator**
+### 10. **BMI Calculator**
 
 * Accept height and weight in a POST request and return BMI with category (underweight, normal, etc.).
 
-### 12. **Palindrome Checker**
+### 11. **Palindrome Checker**
 
 * POST a word and return whether it’s a palindrome.
 
-### 13. **URL Shortener (In-Memory)**
+### 12. **URL Shortener (In-Memory)**
 
 * Create a short URL from a long one. Store mapping in memory. Redirect to original URL on access.
 
-### 14. **Recipe API**
+### 13. **Recipe API**
 
 * Store and manage recipes with ingredients and steps. Practice nested JSON structures.
 
-### 15. **Simple Voting API**
+### 14. **Simple Voting API**
 
 * Create an endpoint to upvote/downvote items (e.g., movies). Store vote count in memory.
