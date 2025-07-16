@@ -57,6 +57,6 @@
 
 * Store and manage recipes with ingredients and steps. Practice nested JSON structures.
 
-### 14. **Simple Voting API**
+### 14. **Contact List API**
 
-* Create an endpoint to upvote/downvote items (e.g., movies). Store vote count in memory.
+* Create a simple Contact List API to work with contacts (first name, last name, email, phone number).
