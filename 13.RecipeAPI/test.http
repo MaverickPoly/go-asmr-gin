@@ -1,5 +1,58 @@
-### GET request to example server
-GET https://examples.http-client.intellij.net/get
-    ?generated-in=WebStorm
+### All Recipes
+GET http://localhost:8000/api/recipes/
 
-###
+### Create Recipe
+POST http://localhost:8000/api/recipes/
+Content-Type: application/json
+
+{
+  "name": "Greek Salad",
+  "ingredients": [
+    "2 tomatoes, chopped",
+    "1 cucumber, sliced",
+    "1/2 red onion, sliced",
+    "1/2 cup Kalamata olives",
+    "100g feta cheese, crumbled",
+    "2 tbsp olive oil",
+    "1 tbsp red wine vinegar",
+    "Salt and oregano to taste"
+  ],
+  "steps": [
+    "Combine tomatoes, cucumber, onion, and olives in a bowl.",
+    "Add feta cheese on top.",
+    "In a small bowl, mix olive oil, vinegar, salt, and oregano.",
+    "Pour dressing over salad and toss gently.",
+    "Serve immediately."
+  ]
+}
+
+### Get By ID
+GET http://localhost:8000/api/recipes/5
+
+### Delete Recipe
+DELETE http://localhost:8000/api/recipes/5
+
+### Update Recipe
+PUT http://localhost:8000/api/recipes/4
+Content-Type: application/json
+
+{
+  "name": "Greek Salad",
+  "ingredients": [
+    "2 tomatoes, chopped",
+    "1 cucumber, sliced",
+    "1/2 red onion, sliced",
+    "1/2 cup Kalamata olives",
+    "100g feta cheese, crumbled",
+    "2 tbsp olive oil",
+    "1 tbsp red wine vinegar",
+    "Salt and oregano to taste"
+  ],
+  "steps": [
+    "Combine tomatoes, cucumber, onion, and olives in a bowl.",
+    "Add feta cheese on top.",
+    "In a small bowl, mix olive oil, vinegar, salt, and oregano.",
+    "Pour dressing over salad and toss gently.",
+    "Serve immediately."
+  ]
+}
